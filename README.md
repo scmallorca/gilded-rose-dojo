@@ -2,7 +2,7 @@ Gilded Rose Refactoring Dojo
 =========================
 
 ## Instructions
-1. Clone your selected language starter from [Starters](https://github.com/emilybache/GildedRose-Refactoring-Kata. To clone just the subfolder with your language of choice: 
+1. Clone your selected language starter from [Starters](https://github.com/emilybache/GildedRose-Refactoring-Kata). To clone just the subfolder with your language of choice: 
 ```
 git init gilded-rose-java (start a new repo)
 cd gilded-rose-java
