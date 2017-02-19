@@ -2,7 +2,15 @@ Gilded Rose Refactoring Dojo
 =========================
 
 ## Instructions
-1. Fork your selected language starter from [Starters](https://github.com/emilybache/GildedRose-Refactoring-Kata)
+1. Clone your selected language starter from [Starters](https://github.com/emilybache/GildedRose-Refactoring-Kata. To clone just the subfolder with your language of choice: 
+```
+git init gilded-rose-java (start a new repo)
+cd gilded-rose-java
+git remote add origin https://github.com/emilybache/GildedRose-Refactoring-Kata.git
+git config core.sparsecheckout true
+echo "Java/*" >> .git/info/sparse-checkout (filter by subfolder Java, csharp, etc; and download only that one)
+git pull --depth=1 origin master (download the subfolder language starter)
+```
 2. Specifications:
 
 Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime location in a
