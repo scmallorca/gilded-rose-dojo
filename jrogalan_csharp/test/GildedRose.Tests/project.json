@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0-*",
+  "testRunner": "nunit",
+  "dependencies": {
+    "GildedRose": {
+      "target": "project"
+    },
+    "System.Runtime.Serialization.Primitives": "4.3.0",
+    "nunit": "3.4.0",
+    "fluentassertions": "4.19.0",
+    "dotnet-test-nunit": "3.4.0-beta-2"
+  },
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.1.0"
+        }
+      },
+      "imports": "dnxcore50"
+    }
+  },
+  "buildOptions": {
+    "copyToOutput": {
+        "include": [ "nunit.runner.json" ]
+    }
+  },
+  "tooling": {
+      "defaultNamespace": "GildedRose.Tests"
+  }
+}
