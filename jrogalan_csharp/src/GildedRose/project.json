@@ -1,0 +1,26 @@
+﻿{
+  "version": "1.0.1-beta0",
+  "authors": [ "Jorge Rodríguez Galán" ],
+  "copyright": "Copyright Jorge Rodríguez Galán",
+  "description": "Gilded Rose kata with net core",
+  "packOptions": {
+    "tags": [ "kata", "gilded rose"],
+    "licenseUrl": "https://github.com/jrgcubano/GildedRose/blob/master/LICENSE",
+    "projectUrl": "https://github.com/jrgcubano/GildedRose",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/jrodriguez/gildedrose"
+    }
+  },
+  "frameworks": {
+    "netstandard1.1": {
+      "dependencies": {
+        "Genesis.Ensure": "1.0.5",
+        "NETStandard.Library": "1.6.0"
+      }
+    }
+  },
+  "tooling": {
+      "defaultNamespace": "GildedRose"
+  }
+}
